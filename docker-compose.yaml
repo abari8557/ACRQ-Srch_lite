@@ -55,6 +55,7 @@ services:
     container_name: 'rabbitmq'
     networks: 
       - node-default
+    restart: always
     ports:
         - 5672:5672
         - 81:15672
