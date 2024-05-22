@@ -16,7 +16,7 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 
 server.get('/', (req:Request, res:Response) => {
-  res.send('<h1>Hola Jorge!!! como estas<h1>')
+  res.send('<h1>Hola Jimmy como estas<h1>')
 });
 
 console.log(`Server is up and running on port ${port}`);
