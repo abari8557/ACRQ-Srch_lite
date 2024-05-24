@@ -46,7 +46,9 @@ Find all documents in the collection and returns a cursor.
 See the db.collection.find() and Query Documents for more information and examples.
 
 See Iterate a Cursor in the mongo Shell for information on cursor handling in the mongo shell.
-###Tables
+
+------------------------------
+###
                     
 First Header  | Second Header
 ------------- | -------------
