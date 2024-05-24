@@ -33,13 +33,14 @@ The mongo shell provides various help. The following table displays some common 
 |show databases	|Print a list of all available databases.|
 |load()	|Execute a JavaScript file. See Write Scripts for the mongo Shell for more information.|
 
-JavaScript Database Operations	Description
-db.auth()	If running in secure mode, authenticate the user.
-coll = db.<collection>	
-Set a specific collection in the current database to a variable coll, as in the following example:
+###
+|JavaScript Database Operations	|Description|
+----------------------|----------------------
+|db.auth()	|If running in secure mode, authenticate the user.|
+|coll = db.<collection> |Set a specific collection in the current database to a variable coll, as in the following example:|
 
-coll = db.myCollection;
-You can perform operations on the myCollection using the variable, as in the following example:
+||coll = db.myCollection;|
+||You can perform operations on the myCollection using the variable, as in the following example:|
 
 coll.find();
 db.collection.find()	
