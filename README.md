@@ -18,6 +18,7 @@ db.passport.find()
 <h3>Command Helpers</h3>
 The mongo shell provides various help. The following table displays some common help methods and commands:
 
+------------------------------------------------
 ###
 | Help Methods and Commands	|Description|
 --------------------|--------------------
@@ -33,6 +34,7 @@ The mongo shell provides various help. The following table displays some common 
 |show databases	|Print a list of all available databases.|
 |load()	|Execute a JavaScript file. See Write Scripts for the mongo Shell for more information.|
 
+-------------------------------------------------
 ###
 |JavaScript Database Operations	|Description|
 ----------------------|----------------------
