@@ -43,8 +43,8 @@ coll = db.myCollection;
 You can perform operations on the myCollection using the variable, as in the following example:
 
 coll.find();|
-db.collection.find()	
-Find all documents in the collection and returns a cursor.
+|db.collection.find()|	
+Find all documents in the collection and returns a cursor.|
 
 See the db.collection.find() and Query Documents for more information and examples.
 
