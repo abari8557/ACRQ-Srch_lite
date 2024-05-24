@@ -50,7 +50,6 @@ See Iterate a Cursor in the mongo Shell for information on cursor handling in th
 ------------------------------
 ###
                     
-First Header  | Second Header
 ------------- | -------------
 |db.collection.insertOne() |	Insert a new document into the collection.|
 |db.collection.insertMany()	|Insert multiple new documents into the collection.|
