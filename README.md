@@ -46,7 +46,10 @@ Find all documents in the collection and returns a cursor.
 See the db.collection.find() and Query Documents for more information and examples.
 
 See Iterate a Cursor in the mongo Shell for information on cursor handling in the mongo shell.
-
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
 db.collection.insertOne()	Insert a new document into the collection.
 db.collection.insertMany()	Insert multiple new documents into the collection.
 db.collection.updateOne()	Update a single existing document in the collection.
