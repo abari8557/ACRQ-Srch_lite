@@ -37,18 +37,18 @@ The mongo shell provides various help. The following table displays some common 
 |JavaScript Database Operations	|Description|
 ----------------------|----------------------
 |db.auth()	|If running in secure mode, authenticate the user.|
-|coll = db.<collection> |Set a specific collection in the current database to a variable coll, as in the following example:
+|coll = db.<collection> |Set a specific collection in the current database to a variable coll, as in the following example:|
 
-coll = db.myCollection;
-You can perform operations on the myCollection using the variable, as in the following example:
+|coll = db.myCollection;|
+You can perform operations on the myCollection using the variable, as in the following example:|
 
-coll.find();|
-|db.collection.find()|	
+|coll.find();|
+|db.collection.find()	
 Find all documents in the collection and returns a cursor.|
 
-See the db.collection.find() and Query Documents for more information and examples.
+|See the db.collection.find() and Query Documents for more information and examples.|
 
-See Iterate a Cursor in the mongo Shell for information on cursor handling in the mongo shell.
+|See Iterate a Cursor in the mongo Shell for information on cursor handling in the mongo shell.|
 
 ------------------------------
 ###
