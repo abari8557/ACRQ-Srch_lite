@@ -15,7 +15,7 @@ show dbs >> shows all dbs
 use <db_name> >> switches to db
 db.passport.find()
 
-Command Helpers
+<h2>Command Helpers</h2>
 The mongo shell provides various help. The following table displays some common help methods and commands:
 
 Help Methods and Commands	Description
