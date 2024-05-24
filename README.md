@@ -23,7 +23,7 @@ The mongo shell provides various help. The following table displays some common 
 --------------------|--------------------
 |help	|Show help.|
 |db.help()	Show help for database methods.|
-|db.<collection>.help()	Show help on collection methods. The <collection> can be the name of an existing collection or a non-existing collection.|
+|db.<collection>.help()	|Show help on collection methods. The <collection> can be the name of an existing collection or a non-existing collection.|
 |show dbs	Print a list of all databases on the server.|
 |use <db>	Switch current database to <db>. The mongo shell variable db is set to the current database.|
 |show collections	Print a list of all collections for current database|
