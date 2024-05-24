@@ -51,12 +51,12 @@ See Iterate a Cursor in the mongo Shell for information on cursor handling in th
 First Header  | Second Header
 ------------- | -------------
 |db.collection.insertOne() |	Insert a new document into the collection.|
-db.collection.insertMany()	Insert multiple new documents into the collection.
-db.collection.updateOne()	Update a single existing document in the collection.
-db.collection.updateMany()	Update multiple existing documents in the collection.
-db.collection.save()	Insert either a new document or update an existing document in the collection.
-db.collection.deleteOne()	Delete a single document from the collection.
-db.collection.deleteMany()	Delete documents from the collection.
-db.collection.drop()	Drops or removes completely the collection.
-db.collection.createIndex()	Create a new index on the collection if the index does not exist; otherwise, the operation has no effect.
-db.getSiblingDB()	Return a reference to another database using this same connection without explicitly switching the current database. This allows for cross database queries.
+|db.collection.insertMany()	|Insert multiple new documents into the collection.|
+|db.collection.updateOne()	Update a single existing document in the collection.
+|db.collection.updateMany()	Update multiple existing documents in the collection.
+|db.collection.save()	Insert either a new document or update an existing document in the collection.
+|db.collection.deleteOne()	Delete a single document from the collection.
+|db.collection.deleteMany()	Delete documents from the collection.
+|db.collection.drop()	Drops or removes completely the collection.
+|db.collection.createIndex()	Create a new index on the collection if the index does not exist; otherwise, the operation has no effect.
+|db.getSiblingDB()	Return a reference to another database using this same connection without explicitly switching the current database. This allows for cross database queries.
