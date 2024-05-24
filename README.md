@@ -47,8 +47,13 @@ See the db.collection.find() and Query Documents for more information and exampl
 
 See Iterate a Cursor in the mongo Shell for information on cursor handling in the mongo shell.
 <div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
+  <div class="column">
+    <p>db.collection.insertOne()</p>
+  </div>
+  
+  <div class="column">
+    <p>Insert a new document into the collection.</p>
+  </div>
 </div>
 db.collection.insertOne()	Insert a new document into the collection.
 db.collection.insertMany()	Insert multiple new documents into the collection.
