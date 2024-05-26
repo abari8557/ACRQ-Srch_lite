@@ -1,0 +1,271 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "ACRQ-srch-lite",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    },
+    {
+      "url": "localhost://"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Authors"
+    },
+    {
+      "name": "Passports"
+    }
+  ],
+  "paths": {
+    "/api/v1/authors/get": {
+      "get": {
+        "tags": [
+          "Authors"
+        ],
+        "summary": "Get Authors",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/authors/create": {
+      "post": {
+        "tags": [
+          "Authors"
+        ],
+        "summary": "Create Author",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "name": "Jason"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/authors/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Authors"
+        ],
+        "summary": "Delete Authors",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/authors/update/6651c111486bea662bbcaccb": {
+      "put": {
+        "tags": [
+          "Authors"
+        ],
+        "summary": "Update Authors",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "name": "Croft1"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/000/api/v1/passports/{id}": {
+      "get": {
+        "tags": [
+          "Passports"
+        ],
+        "summary": "Search All Passports",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Passports"
+        ],
+        "summary": "Update Passport",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "first_name": "Gerladina",
+                  "last_name": "Rene",
+                  "email": "grene0@rediff.com",
+                  "gender": "Female",
+                  "date_of_birth": "02/14/2005",
+                  "passport_number": "P289624750",
+                  "address": {
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "country": "United States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/000/api/v1/passports/": {
+      "post": {
+        "tags": [
+          "Passports"
+        ],
+        "summary": "Add Passport",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "first_name": "Gerladina",
+                  "last_name": "Rene",
+                  "email": "grene0@rediff.com",
+                  "gender": "Female",
+                  "date_of_birth": "02/14/2005",
+                  "passport_number": "P289624750",
+                  "address": {
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "country": "United States"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "client_id",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1234567890"
+          },
+          {
+            "name": "secret",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "iamasecretkey"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Passports"
+        ],
+        "summary": "Search A Passport",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/000/api/v1/passports/6652039a34c72e2307c99429": {
+      "delete": {
+        "tags": [
+          "Passports"
+        ],
+        "summary": "Delete Passports",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
