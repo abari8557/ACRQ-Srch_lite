@@ -15,7 +15,7 @@ interface IPassport extends Document {
   };
 }
 
-// 2. Create a Mongoose schema for the User model.
+// 2. Create a Mongoose schema for the Passport model.
 const passportSchema = new mongoose.Schema(
   {
     first_name: {
@@ -62,7 +62,7 @@ const passportSchema = new mongoose.Schema(
   { timestamps: true, versionKey: false }
 );
 
-// 3. Create a Mongoose model for the User.
+// 3. Create a Mongoose model for the Passport.
 const Passport = mongoose.model<IPassport>("Passport", passportSchema);
 
 export default Passport;

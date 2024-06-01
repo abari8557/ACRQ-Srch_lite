@@ -23,9 +23,7 @@
   "paths": {
     "/api/v1/authors/get": {
       "get": {
-        "tags": [
-          "Authors"
-        ],
+        "tags": ["Authors"],
         "summary": "Get Authors",
         "responses": {
           "200": {
@@ -39,9 +37,7 @@
     },
     "/api/v1/authors/create": {
       "post": {
-        "tags": [
-          "Authors"
-        ],
+        "tags": ["Authors"],
         "summary": "Create Author",
         "requestBody": {
           "content": {
@@ -67,9 +63,7 @@
     },
     "/api/v1/authors/delete/{id}": {
       "delete": {
-        "tags": [
-          "Authors"
-        ],
+        "tags": ["Authors"],
         "summary": "Delete Authors",
         "parameters": [
           {
@@ -93,9 +87,7 @@
     },
     "/api/v1/authors/update/6651c111486bea662bbcaccb": {
       "put": {
-        "tags": [
-          "Authors"
-        ],
+        "tags": ["Authors"],
         "summary": "Update Authors",
         "requestBody": {
           "content": {
@@ -121,9 +113,7 @@
     },
     "/000/api/v1/passports/{id}": {
       "get": {
-        "tags": [
-          "Passports"
-        ],
+        "tags": ["Passports"],
         "summary": "Search All Passports",
         "responses": {
           "200": {
@@ -135,9 +125,7 @@
         }
       },
       "patch": {
-        "tags": [
-          "Passports"
-        ],
+        "tags": ["Passports"],
         "summary": "Update Passport",
         "requestBody": {
           "content": {
@@ -183,9 +171,7 @@
     },
     "/000/api/v1/passports/": {
       "post": {
-        "tags": [
-          "Passports"
-        ],
+        "tags": ["Passports"],
         "summary": "Add Passport",
         "requestBody": {
           "content": {
@@ -237,9 +223,7 @@
         }
       },
       "get": {
-        "tags": [
-          "Passports"
-        ],
+        "tags": ["Passports"],
         "summary": "Search A Passport",
         "responses": {
           "200": {
@@ -253,9 +237,7 @@
     },
     "/000/api/v1/passports/6652039a34c72e2307c99429": {
       "delete": {
-        "tags": [
-          "Passports"
-        ],
+        "tags": ["Passports"],
         "summary": "Delete Passports",
         "responses": {
           "200": {

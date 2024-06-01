@@ -41,20 +41,7 @@
       "country": "United States"
     }
   },
-  {
-    "id": 4,
-    "first_name": "Julian",
-    "last_name": "Lyman",
-    "email": "jlyman3@yellowbook.com",
-    "gender": "Male",
-    "date_of_birth": "01/27/1927",
-    "passport_number": "P386296424",
-    "address": {
-      "city": "Houston",
-      "state": "Texas",
-      "country": "United States"
-    }
-  },
+  { "first_name": "Julian", "last_name": "Lyman", "email": "jlyman3@yellowbook.com", "gender": "Male", "date_of_birth": "01/27/1927", "passport_number": "P386296424", "address": { "city": "Houston", "state": "Texas", "country": "United States" } },
   {
     "id": 5,
     "first_name": "Ernst",
