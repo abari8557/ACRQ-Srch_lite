@@ -8,8 +8,10 @@ docker-compose -f docker-compose.dev.yaml up -d --build
 docker-compose -f docker-compose.dev.yaml up -d --build --no-deps <container_name>
 docker-compose -f docker-compose.dev.yaml down
 
-
-MongoDB Shell Syntax
+-----------------------
+###
+| MongoDB Shell Syntax |
+-------------------------
 
 db >> shows current db connected to
 show dbs >> shows all dbs
