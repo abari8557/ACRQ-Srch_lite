@@ -1,17 +1,17 @@
 <h1>Always do a docker pull before pushing code up</h1>
 
-To create a docker container, run the following in a terminal window
+<h3>To create a docker container, run the following in a terminal window</h3>
 
 docker-compose -f docker-compose.dev.yaml up -d --build
 
 
 docker-compose -f docker-compose.dev.yaml up -d --build --no-deps <container_name>
+
 docker-compose -f docker-compose.dev.yaml down
 
------------------------
 ###
-| MongoDB Shell Syntax |
--------------------------
+MongoDB Shell Syntax 
+----------------------
 
 db >> shows current db connected to
 show dbs >> shows all dbs
@@ -36,8 +36,8 @@ The mongo shell provides various help. The following table displays some common 
 |show profile	|Print the five most recent operations that took 1 millisecond or more. See documentation on the database profiler for more information.|
 |show databases	|Print a list of all available databases.|
 |load()	|Execute a JavaScript file. See Write Scripts for the mongo Shell for more information.|
-
 -------------------------------------------------
+
 ###
 |JavaScript Database Operations	|Description|
 ----------------------|----------------------
